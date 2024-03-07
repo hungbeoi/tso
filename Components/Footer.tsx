@@ -36,7 +36,7 @@ export const Footer: FC = () => {
             <Tooltip label="Source code" hasArrow>
                <CustomCard
                   as="a"
-                  href="https://github.com/minhphuc010194/NumerologyWebApp"
+                  href="https://github.com/hungbeoi"
                   target="_blank"
                >
                   <Icon
