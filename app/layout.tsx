@@ -13,7 +13,7 @@ export default function RootLayout({ children }: { children: ReactNode }) {
             <title>Numerology Web App</title>
             <meta
                name="description"
-               content="Numerology Web App - Tra cứu thần số học"
+               content="Numerologyy - Tra cứu thần số học"
             />
             <link rel="icon" href="/Images/numerologyPNG.png" />
             {/* <script
