@@ -60,8 +60,8 @@ export const Feeacback = () => {
    // };
    return (
       <Box>
-         <Tooltip label="Feedback to me: bumlowkey@proton.me" hasArrow>
-            <CustomCard as="a" href="mailto:chauminhphuc1994it@gmail.com">
+         <Tooltip label="Feedback to me:" hasArrow>
+            <CustomCard as="a" href="">
                <Icon
                   as={MdOutlineFeedback}
                   boxSize={12}
