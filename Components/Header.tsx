@@ -5,7 +5,7 @@ export const Header: FC = () => {
    return (
       <Head>
          <title>Numerology Web App</title>
-         <meta name="description" content="Numerology Web App" />
+         <meta name="description" content="Numerology" />
          <link rel="icon" href="/Images/numerologyPNG.png" />
       </Head>
    );
