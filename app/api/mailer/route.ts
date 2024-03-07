@@ -33,7 +33,7 @@ export async function POST(req: Request) {
          {
             from: email,
             to: mailOption.email,
-            subject: "Feedback - Numerology web app",
+            subject: "Feedback - Numerology",
             text: mailOption.message,
             html: "<p>Thanks for your feedback, I'll contact you when possible</p>",
          },
@@ -48,7 +48,7 @@ export async function POST(req: Request) {
          {
             from: email,
             to: reader,
-            subject: "Feedback - Numerology web app from " + mailOption.email,
+            subject: "Feedback - Numerology  " + mailOption.email,
             text: mailOption.message,
             html: `<p>${mailOption.message}</p>`,
          },
